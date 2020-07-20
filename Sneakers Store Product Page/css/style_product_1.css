@@ -135,6 +135,7 @@ ul {
     border-radius: 1rem;
     box-shadow: 0 8px 6px -6px rgb(158, 150, 150);
     padding: 12px;
+    cursor: pointer;
 }
 
 .showcase-container .prod-info-right .price p {
