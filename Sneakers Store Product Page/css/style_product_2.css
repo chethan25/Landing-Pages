@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 95%;
+    max-width: 1900px;
+    margin: auto;
+}
+
+/* Nav */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin: 20px 0;
+    font-size: 19px;
+}
+
+.main-nav .logo {
+    width: 110px;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    position: relative;
+    padding: 0 35px;
+}
+
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+
+.main-menu img {
+    position: absolute;
+    width: 50%;
+    left: 900px;
+    top: -240px;
+}
+
+/* Showcase */
+.showcase-container {
+    width: 78%;
+    max-width: 1700px;
+    margin: auto;
+}
+
+.showcase {
+    display: flex;
+    width: 30%;
+}
+
+.showcase .prod-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.showcase .prod-desc h1 {
+    font-size: 70px;
+    font-style: italic;
+}
+
+.showcase .prod-desc p {
+    width: 70%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.showcase-container .prod-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase-container .prod-info-left {
+    align-items: flex-start;
+    align-items: center;
+    display: flex;   
+}
+
+.showcase-container .prod-info-left li {
+    padding-right: 30px;
+}
+
+.showcase-container .prod-info-right {
+    width: 20%;
+}
+
+.showcase-container .prod-info-right .size {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(224, 222, 222);
+    border-radius: 5%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.showcase-container .prod-info-right .size p {
+    width: 60%;
+    font-weight: 400;
+}
+
+.showcase-container .prod-info-right .price {
+    display: flex;
+    margin: 20px;
+}
+
+.showcase-container .prod-info-right .btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    border: solid 1px #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 6px -6px rgb(158, 150, 150);
+    padding: 12px;
+}
+
+.showcase-container .prod-info-right .price p {
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 50px;
+}
