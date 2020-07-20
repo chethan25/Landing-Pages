@@ -24,6 +24,7 @@ ul {
     width: 95%;
     max-width: 1900px;
     margin: auto;
+    margin-top: 40px;
 }
 
 /* Nav */
@@ -78,6 +79,7 @@ ul {
 .showcase .prod-desc p {
     width: 50%;
     font-size: 20px;
+    font-weight: 550;
     margin-top: 30px;
 }
 
@@ -102,7 +104,7 @@ ul {
 }
 
 .showcase-container .prod-info-right {
-    width: 20%;
+    width: 23%;
 }
 
 .showcase-container .prod-info-right .size {
@@ -139,4 +141,30 @@ ul {
     font-size: 30px;
     font-weight: 400;
     padding-left: 50px;
+}
+
+.nav-lines {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.nav-lines hr {
+    margin-bottom: 10px;
+}
+
+.nav-lines hr:nth-child(2) {
+    color: #fff;
+}
+
+.nav-lines hr:nth-child(3) {
+    color: #fff;
+}
+
+.nav-lines hr:nth-child(4) {
+    color: #fff;
 }

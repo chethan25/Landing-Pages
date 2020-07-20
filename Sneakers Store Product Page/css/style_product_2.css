@@ -104,18 +104,20 @@ ul {
 .showcase .prod-desc p {
     width: 70%;
     font-size: 20px;
+    font-weight: 550;
     margin-top: 30px;
 }
 
 .showcase-container .prod-info {
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;  
 }
 
 .showcase-container .prod-info-left {
     align-items: flex-start;
     align-items: center;
-    display: flex;   
+    display: flex; 
 }
 
 .showcase-container .prod-info-left li {
@@ -160,4 +162,30 @@ ul {
     font-size: 30px;
     font-weight: 400;
     padding-left: 50px;
+}
+
+.nav-lines {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.nav-lines hr {
+    margin-bottom: 10px;
+}
+
+.nav-lines hr:nth-child(1) {
+    color: #fff;
+}
+
+.nav-lines hr:nth-child(3) {
+    color: #fff;
+}
+
+.nav-lines hr:nth-child(4) {
+    color: #fff;
 }
