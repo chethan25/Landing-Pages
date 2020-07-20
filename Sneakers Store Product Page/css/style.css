@@ -93,6 +93,7 @@ ul {
 
 .showcase-container .prod-info-left {
     align-items: flex-start;
+    align-items: center;
     display: flex;   
 }
 
