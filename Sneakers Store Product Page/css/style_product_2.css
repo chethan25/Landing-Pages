@@ -164,6 +164,7 @@ ul {
     padding-left: 50px;
 }
 
+/* Page Indicator */
 .nav-lines {
     display: flex;
     flex-direction: column;
