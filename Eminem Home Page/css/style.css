@@ -1,0 +1,104 @@
+/* Global */
+:root {
+  --primary-color: #ee1c25;
+  --dark-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Trincha, Arial, Helvetica, sans-serif;
+  background: #000;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  height: 7vh;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+  padding: 2rem 0;
+}
+
+header .menu {
+  display: flex;
+  padding-left: 3rem;
+}
+
+header .menu li a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  background: var(--dark-color);
+  padding: 0.15rem 0.5rem;
+}
+
+header .menu li a:hover {
+  background: #fff;
+  color: var(--dark-color);
+  transition: 0.2s ease-in-out;
+}
+
+header .menu .leaf-menu-1 {
+  margin: 1rem 0.3rem;
+}
+
+header .menu .leaf-menu-2 {
+  margin: 1rem 0.3rem;
+}
+
+header .menu .leaf-menu-3 {
+  margin: 1rem 0.3rem;
+}
+
+header .menu .leaf-menu-4 {
+  margin: 1rem 0.3rem;
+}
+
+header .site-logo img {
+  width: 18%;
+}
+
+header .join a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  background: var(--dark-color);
+  margin-right: 3rem;
+  padding: 0.15rem 0.5rem;
+}
+
+header .join a:hover {
+  background: #fff;
+  color: var(--dark-color);
+  transition: 0.2s ease-in-out;
+}
