@@ -12,7 +12,7 @@
 
 body {
   font-family: "HelveticaCondensed", Helvetica, sans-serif;
-  background: #000;
+  background: #111;
   font-weight: 400;
   line-height: 1.5;
   color: #ccc;
@@ -215,4 +215,41 @@ header .join a:hover {
   to {
     opacity: 1;
   }
+}
+
+/* Main */
+
+/* News */
+#main .news {
+  display: flex;
+  margin: 5rem;
+}
+
+#main .news img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#main .news-1 {
+  margin-right: 2rem;
+}
+
+#main .news-2 {
+  margin-right: 2rem;
+}
+
+#main .news-3 {
+  margin-right: 2rem;
+}
+
+#main .news h3 {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+
+#main .news p {
+  font-family: "Helvetica Condensed";
+  line-height: 1.6;
+  color: #707070;
 }
