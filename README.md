@@ -24,7 +24,7 @@ A Netflix landing page using HTML, CSS and a bit of JavaScrpt. Followed Traversy
 
 Homepage of Eminem.com using HTML, CSS and a bit of JavaScrpt.
 
-![Imgur](https://imgur.com/Pql18W0.jpg)
+![Imgur](https://imgur.com/kbN5qFm.jpg)
 
 ![Imgur](https://imgur.com/Ud78CxW.jpg)
 
