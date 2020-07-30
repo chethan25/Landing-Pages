@@ -267,4 +267,124 @@ header .join a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
+  font-size: 1.5rem;
+}
+
+#main .merch {
+  display: flex;
+  position: absolute;
+  top: 200%;
+  margin: 1rem 3rem;
+}
+
+#main .merch img {
+  width: 95%;
+}
+
+#main .dark {
+  background: black;
+}
+
+#main .dark img {
+  transition: all 0.5s linear;
+}
+
+#main .dark:hover img {
+  opacity: 0.5;
+  border-bottom: 0.5rem solid var(--primary-color);
+}
+
+#main .overlay {
+  position: absolute;
+  top: 77%;
+  height: 10%;
+  width: 20%;
+  opacity: 0;
+  transition: 0.5s ease;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+
+#main .vinyl:hover .overlay {
+  opacity: 1;
+}
+
+#main .casette:hover .overlay {
+  opacity: 1;
+}
+
+#main .cd:hover .overlay {
+  opacity: 1;
+}
+
+/* Footer */
+#footer {
+  position: relative;
+  top: 1300px;
+}
+
+#footer img {
+  width: 100%;
+}
+
+#footer .upper-block .mail {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+}
+
+#footer .upper-block .mail form input[type="text"] {
+  font-family: pragmatica extended;
+  height: 30px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 1px solid var(--dark-color);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+#footer .upper-block .mail p {
+  padding-right: 75px;
+  text-align: right;
+  font-size: 0.625rem;
+  color: var(--dark-color);
+}
+
+#footer .upper-block .mail a {
+  font-family: "HelveticaCondensed", Helvetica, sans-serif;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 4.6rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#footer .lower-left-block {
+  position: absolute;
+  top: 85%;
+  margin-left: 60px;
+}
+
+#footer .lower-left-block i {
+  margin-right: 20px;
+  color: var(--primary-color);
+}
+
+#footer .lower-right-block {
+  position: absolute;
+  top: 85%;
+  left: 66%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--dark-color);
+}
+
+#footer .lower-right-block p {
+  font-family: "HelveticaCondensed", Helvetica, sans-serif;
+  margin-left: 15px;
 }
